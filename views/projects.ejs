@@ -1,0 +1,76 @@
+<!-- views/projects.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> | Sree Charan</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <h1>Sree Charan</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects" class="active">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section data-aos>
+      <h2>Projects</h2>
+      <div class="project-container">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos>
+          <h3>🧠 Knowledge Testing App (Django)</h3>
+          <p>
+            Built a dynamic quiz web app using Django framework. Supported multi-user registration, random question selection, and score tracking.
+          </p>
+          <ul>
+            <li>✅ Django models, views, and templates</li>
+            <li>✅ Performance tracking & score analysis</li>
+            <li>✅ CSS & JS for frontend interactivity</li>
+          </ul>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos>
+          <h3>🛒 Health Supplements E-commerce App</h3>
+          <p>
+            Full-stack e-commerce site using JavaScript, jQuery, and C# for product listings, user login, and inventory management.
+          </p>
+          <ul>
+            <li>✅ Form validation & search features</li>
+            <li>✅ Admin-controlled inventory updates</li>
+            <li>✅ ASP.NET MVC-based backend</li>
+          </ul>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos>
+          <h3>☕ Cafe Database Design</h3>
+          <p>
+            Designed and implemented a normalized SQL database for a cafe with ER modeling, constraints, and optimized queries.
+          </p>
+          <ul>
+            <li>✅ Advanced SQL queries</li>
+            <li>✅ Clean relational structure</li>
+            <li>✅ Reports on products & sales</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; <%= new Date().getFullYear() %> Sree Charan Shankupalle. All rights reserved.
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

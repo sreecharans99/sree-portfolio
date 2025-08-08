@@ -1,0 +1,49 @@
+<!-- views/about.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %> | Sree Charan</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <h1>Sree Charan</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about" class="active">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section data-aos>
+      <h2>About Me</h2>
+      <p style="max-width: 700px; margin: 1rem auto;">
+        Hello! I'm <strong>Sree Charan Shankupalle</strong>, a Full Stack Developer currently pursuing a postgraduate certificate in Full Stack Software Development at Lambton College. With a background in Computer Science Engineering and 2+ years of experience as a Senior Systems Engineer at Infosys, I specialize in building clean, efficient, and modern web applications.
+      </p>
+
+      <p style="max-width: 700px; margin: 1rem auto;">
+        I'm skilled in <strong>JavaScript, Java, C#, SQL</strong>, and familiar with frameworks like <strong>ASP.NET MVC, Django</strong>, and tools like Selenium, Postman, and Jenkins. I enjoy turning complex problems into elegant solutions through well-designed systems and collaborative development.
+      </p>
+
+      <p style="max-width: 700px; margin: 1rem auto;">
+        When I’m not coding, I love exploring UI design patterns, writing thoughtful documentation, and staying up-to-date with modern software trends. I'm always looking forward to creating projects that add value and reflect my growth as a developer.
+      </p>
+
+      <a href="/projects">View My Work</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; <%= new Date().getFullYear() %> Sree Charan Shankupalle. All rights reserved.
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
